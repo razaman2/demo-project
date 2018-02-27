@@ -212,7 +212,7 @@
     }
     .summary .summary-content {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
         grid-gap: .1em;
     }
     .footer {

@@ -17,7 +17,7 @@
                 <q-card-actions>
                     <div class="card-actions fit">
                         <q-btn outline color="primary" label="login" size="1em" @click="submit" />
-                        <q-btn outline color="primary" label="signup" size="1em" @click="submit" />
+                        <!--<q-btn outline color="primary" label="signup" size="1em" @click="submit" />-->
                     </div>
                 </q-card-actions>
             </q-card>
