@@ -11,21 +11,21 @@ export default [
 		path: '/signup',
 		component: () => import('layouts/default'),
 		children: [
-			{path: '', component: ()=> import('pages/signup')}
+			{path: '', component: () => import('pages/signup')}
 		]
 	},
 	{
 		path: '/login',
 		component: () => import('layouts/default'),
 		children: [
-			{path: '', component: ()=> import('pages/login')}
+			{path: '', component: () => import('pages/login')}
 		]
 	},
 	{
 		path: '/demos',
 		component: () => import('layouts/default'),
 		children: [
-			{path: '', component: ()=> import('pages/demos')}
+			{path: '', component: () => import('pages/demos')}
 		]
 	},
 	
