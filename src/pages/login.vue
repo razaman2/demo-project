@@ -19,7 +19,7 @@
                   <q-card-actions>
                       <div class="form-buttons">
                           <q-btn outline color="primary" label="login" size="1em" @click="" />
-                          <q-btn outline color="primary" label="signup" size="1em" @click="" />
+                          <q-btn outline color="primary" label="signup" size="1em" @click="$router.push('/signup')" />
                       </div>
                   </q-card-actions>
               </q-card>
